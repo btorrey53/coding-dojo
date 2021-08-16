@@ -1,0 +1,14 @@
+*{
+    margin: 0px
+    padding: 0px
+}
+
+body{
+    padding:10px
+}
+
+.blue-box{
+    background-color: blue;
+    height: 100px
+    width: 300px
+}

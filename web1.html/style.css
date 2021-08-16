@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    width: 0px;
+}
+
+#container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+/* sidebar */
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding-right: 5%;
+}
+.logo {
+    width: 30px;
+}
+
+/* main content */
+.main {
+    border-left: 10px solid blue;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+}
+
+table {
+    border-collapse: none;
+    border: 2px solid lightblue;
+}
+    thead {
+        border-bottom: 2px solid lightblue;
+    }
+    th, td {
+        padding: 5px 15px;
+    }
+
+.hidden {
+    visibility: hidden;
+}
+
+.with-css:after {
+    content: "But with just a little CSS, we can transform the way all the content appears!";
+}

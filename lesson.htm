@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Your Guide to Learn Programming Algorithms | Coding Dojo</title>
+	<link rel="shortcut icon" href="/assets/img/black_ninja.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../assets/css/vendor/bootstrap/bootstrap.css?1628429139">
+	<link rel="stylesheet" href="../assets/css/vendor/nano-scroller/nano-scroller.css?1628429139">
+	<link rel="stylesheet" href="../assets/css/global/global.css?1628429139">
+
+	<script src="assets/js/vendor/jquery.js?1628429139"></script>
+	<script src="/assets/js/vendor/underscore.js"></script>
+	<script src="assets/js/vendor/bootstrap/bootstrap.min.js?1628429139"></script>
+	<script src="assets/js/vendor/nano-scroller/nano-scoller.js?1628429139"></script>
+	<script src="assets/js/lesson_dashboard.js?1628429139"></script>
+	<script src="assets/js/global/global.js?1628429139"></script>
+	<script src="/assets/js/froogaloop.min.js?1628429139"></script>
+	
+</head>
+<body>
+	
+	<div id="wrapper">
+
+		<header>
+	<div class="main_header_container">
+		<div id="logo_container">
+			<a href="/lesson">
+				<img src="../../assets/img/coding_dojo_logo_white.png" alt="#">
+			</a>
+		</div>
+		<div id="progress_dashboard">
+			<ul id="progress_container">
+				<li class="progress_item active_page" id="lessons_progress">
+					<a href="/lesson">
+						<div class="progress_title_container">
+							<h3>Lessons</h3>
+							<span>100%</span>
+						</div>
+						<ul class="chapter_progress_list">
+							<li class="chapter_progress_item">
+							</li>
+																	<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																						</ul>
+					</a>
+				</li>
+				<li class="progress_item " id="challenges_progress">
+					<a href="/challenge">
+						<div class="progress_title_container">
+							<h3>Challenges</h3>
+							<span>100%</span>
+						</div>
+						<ul class="chapter_progress_list">
+							<li class="chapter_progress_item">
+							</li>
+																	<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																										<li class="chapter_progress_item active_progress_indicator recent_progress_indicator">
+											<span class="chapter_progress_indicator"></span> 
+										</li>
+																						</ul>
+					</a>
+				</li>
+				<li class="progress_item " id="assessment_progress">
+					<a href="/assessment">
+						<div class="progress_title_container">
+							<h3>Assessment</h3>
+						</div>
+						<ul class="chapter_progress_list">
+							<li class="chapter_progress_item"></li>
+						</ul>	
+					</a>
+				</li>
+			</ul>	
+		</div>
+
+		<div id="user_profile_container" class="">
+			<!-- <h3 class="user_profile_name admin_student_logout_popover">Brian Torrey<span class="glyphicon glyphicon-triangle-bottom"></span></h3> -->
+			<h3 class="user_profile_name student_logout_popover ">Brian Torrey<span class="glyphicon glyphicon-triangle-bottom"></span></h3>
+			
+		</div>
+	</div>
+</header>		<div id="main_container">
+			<div id="content_container">
+				<div id="sidebar_navigation">
+					<div class="progress_container">
+						<h2>Lessons</h2>
+						<span class="progress_indicator">100%</span>
+					</div>
+					<div id="sidebar_navigation_links_nano" class="nano">
+					    <div class="nano-content sidebar_navigation_links">
+							<div class="panel-group" id="lesson_accordion" role="tablist" aria-multiselectable="true">
+								<!--append-->
+							</div>
+
+					    </div>
+					</div>
+					<a href="#" id="reset_all_level_button" data-toggle="modal" data-target="#reset_all_level_modal">Reset All Levels</a>
+				</div>
+				<div id="activity_dashboard_container" class="">
+				<span class="glyphicon glyphicon-question-sign pull-right lesson_tooltip" data-html="true" data-toggle="tooltip" data-placement="bottom" title='<ul class="list-unstyled"><li><strong>Answers.</strong> Answers should be comma separated.</li><li><strong>Arrays.</strong> Arrays should be inside open and close square brackets (e.g. [1,3,4,5]).</li><li><strong>Mistakes.</strong> Double check your answer carefully before submitting a reported mistake. Many users have already completed all the activities here without any issue.</li><li><strong>Glitches.</strong> If you are experiencing some UI issues, try using Google Chrome.</li></ul>
+'></span>
+					<div class="activity_title_container">
+						<h2>Activity</h2>
+					</div>
+											<div class="main_activity_container">
+						<div class="main_activity_section">
+							<div class="activity_instruction_container">
+								<p>Predict the output of the following code:</p>
+
+							</div>
+							<ul class="activity_editor lessons_activity_editor">
+							</ul>
+						</div>
+						<div class="activity_interaction_container">
+							<div id="t_diagram_container" class="activity_interaction_dashboard">
+								<h2>T Diagram</h2>
+								<span>Variable</span><span>Values</span>
+								<div id="diagram_list" class="nano">
+								    <div class="nano-content">
+								    	<div class="t_diagram_list_container">
+											<div class="t_diagram_list">
+												<input type="text" class="variable_input" placeholder="a,b,c">
+												<input type="text" class="values_input recent_values_input" placeholder="1,2,3">
+											</div>
+								    	</div>
+								    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="submit_container">
+
+						<form action="submit" id="activity_form" class="lesson_submit">
+							<input type="text" placeholder="Your answer. e.g. 1, 2, 3, [1,2,3]" name="solution" id="user_solution" autocomplete="off">
+							<button class="btn">SUBMIT</button>
+						</form>
+						<button id="next_button" class="btn disabled">NEXT ACTIVITY</button>
+					</div>
+					<div class="activity_video_button_container correct_answer hidden">
+						<!-- <h5>Oops. Please try again. (Video answer available in  seconds)</h5> -->	
+						<button class="play_video_button btn" data-toggle="modal" data-target="#activity_modal">
+							<span class="glyphicon glyphicon-play-circle"></span>
+						</button>
+						<p>Not quite correct. Try again or watch video for help.</p><span class="activity_video_countdown"></span>
+					</div>
+					<a href="#" class="report_a_mistake_button pull-right" data-toggle="modal" data-target="#report_a_mistake_modal" data-keyboard="false" data-backdrop="static">Report a Mistake?</a>
+				</div>
+				<div id="introduction_video_container" class="hidden">
+					<iframe src="https://player.vimeo.com/video/128205800?quality=1080p" frameborder="0" webkitallowfullscreen mozallowfullscreen mozallowfullscreen></iframe>
+					<button class="start_button btn">GET STARTED</button> 
+				</div>
+				<div id="function_video_container" class="hidden">
+					<iframe src="https://player.vimeo.com/video/387608947?quality=1080p" frameborder="0" webkitallowfullscreen mozallowfullscreen mozallowfullscreen></iframe>
+					<button class="start_button btn function_video_button">Next</button> 
+				</div>
+			</div>
+			
+		</div>
+		<div id="modal_container">
+			<div class="modal fade" id="activity_modal" tabindex="-1" role="dialog" aria-labelledby="activity_modalLabel">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="activity_modalLabel">Activity Video</h4>
+						</div>
+						<div class="modal-body">
+						</div>
+						<!-- <div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="modal fade modal_template" id="report_a_mistake_modal" tabindex="-1" role="dialog" aria-labelledby="activity_modalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<form action="" action="POST" id="reported_mistake_form">
+							<input type="hidden" name="entry.1259702863" value="133306">
+							<input type="hidden" name="entry.2033639084" value="briantorrey2016@gmail.com">
+							<input type="hidden" name="entry.1987899785" value="Brian Torrey">
+							<input type="hidden" name="entry.1865298780" class="user_type"  value="lessons">
+							<input type="hidden" name="entry.1617499437" class="user_level" value="">
+							<input type="hidden" name="entry.1037357920" class="user_challenge" value="">
+							<input type="hidden" name="user_answer" class="user_answer" value="">
+							<div class="modal-header">
+								<span class="glyphicon glyphicon-remove-circle"></span>
+							</div>
+							<div class="modal-body">
+								<img src="../../assets/img/45.gif" alt="#">
+								<h4>Share the mistake you found and we'll fix it soon as we can.</h4>
+								<button id="ok_button" type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+								<textarea name="entry.698769155" placeholder="What did you find?"></textarea>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+								<button type="button" class="btn btn-primary" id="modal_report_a_mistake_button">Send</button>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade modal_template" id="success_modal" tabindex="-1" role="dialog" aria-labelledby="activity_modalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<img src="../../assets/img/coding_dojo_logo_white.png" alt="#">
+						</div>
+						<div class="modal-body">
+							<h4>Great job! You've solved all challenges with a total time of <span class="total_time_spent">0 hour and 47 minutes</span>.</h4>
+							<p>We encourage you to redo any algorithm challenges that took you a while and do these until you can do each under 1-2 minutes</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" id="unlock_dashboard_button"><a href="/challenge">Awesome! Unlock Coding Challenges</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade modal_template" id="success_assessment_modal" tabindex="-1" role="dialog" aria-labelledby="activity_modalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<img src="../../assets/img/coding_dojo_logo_white.png" alt="#">
+						</div>
+						<div class="modal-body">
+							<h4>Great job! You've solved all challenges with a total time of 0 hour and 47 minutes.</h4>
+							<p>We encourage you to redo any algorithm challenges that took you a while and do these until you can do each under 1-2 minutes</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" id="unlock_dashboard_button">Awesome! Unlock Coding Challenges</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade modal_template" id="reset_all_level_modal" tabindex="-1" role="dialog" aria-labelledby="activity_modalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<span class="glyphicon glyphicon-refresh"></span>
+						</div>
+						<div class="modal-body">
+							<h4>Are you sure you want reset all the levels?</h4>
+							<p class="red">This will erase all your progress in the Lessons section.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-primary" id="modal_reset_challenges_button">Reset</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="clone_container" class="hidden">
+			<div class="t_diagram_clone">
+				<div class="t_diagram_list">
+					<input type="text" class="variable_input" placeholder="a,b,c">
+					<input type="text" class="values_input recent_values_input" placeholder="1,2,3">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>	
+</html>
