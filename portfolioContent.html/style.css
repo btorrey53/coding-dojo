@@ -1,9 +1,12 @@
 *{
-    margin: 10px;
+    margin: 0;
 }
-#table{
-    padding:0% black;
-font-size
+body{
+    padding: 10px;
+}
+table,th, td{
+    padding:2px;
+    border:1px black solid;
 }
 #h1{
 
@@ -12,7 +15,11 @@ font-size
 #links{
 }
 
-#contact me{
+#contact{
     padding: 5px;
+}
 
+.button{
+    display: inline-block;
+    width: 100px;
 }
